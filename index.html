@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="scss/index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"/>
+</head>
+<body>
+    <script src="js/app.js" defer></script>
+    
+    <section>
+        <h2>Ваш прогресс</h2>
+        <div class="container_result">
+            <div class="progress-value">
+            </div>
+        </div>
+        <p id="text_content">Технологий пока нет. Добавьте первую.</p>
+        <div class="row" id="block_content">      
+            
+            
+        </div>
+        <form class="form">
+            <h2>Добавить технологию</h2>
+            <div class="container_form">
+                <label for="title">Название</label>
+                <div class="container_input">
+                    <input type="text" id="title" name="title" placeholder="Введите название">
+                </div>
+                <label for="title">Описание</label>
+                <div class="container_input">
+                    <textarea class="input1" id="description" name="description" placeholder="Введите описание"></textarea>
+                </div>
+            </div>
+        </form>
+        <button id="btn" class="btn">Создать</button>
+
+        <div class="modal_show" id="modal_show">
+            <div class="modal">
+                <div class="container_modal">
+                    <h2></h2>
+                    <p></p>
+                </div>
+                <div class="container_modal2">
+                <label><input type="checkbox"> Выполнил</label>
+                </div>
+            </div>
+            <div class="modal-backdrop" id="backdrop"></div>
+        </div>
+
+
+    </section>
+</body>
+</html>
